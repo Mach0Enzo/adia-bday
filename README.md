@@ -1,3 +1,1 @@
-"# for_adia" 
-"# for_adia" 
-"# adia-bday" 
+Hola cabron, patron leo wuz hereo
