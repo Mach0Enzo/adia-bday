@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: vhsFont;
+  src: url(/font/VCR_OSD_MONO_1.001.ttf);
+}
+
+body {
+  background-image: url("/content/hearts-of-love-hearts-and-kisses.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.hbdText {
+  text-align: center;
+  padding-top: 30px;
+  animation: transitionIn 5s;
+}
+
+.hbdText h1 {
+  position: relative;
+  top: 240px;
+  font-family: vhsFont;
+  font-size: 70px;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  animation: transitionIn 8s;
+}
+
+.hbdText img {
+  height: 175px;
+  width: auto;
+}
+
+.centreContainer {
+  text-align: center;
+}
+
+.buttons {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  margin-bottom: 30px;
+  animation: transitionIn 7s;
+  transition: 5s;
+}
+
+.buttons:hover {
+  padding: 25px 35px;
+  transition: 0s;
+}
+
+.buttons img {
+  width: 90px;
+  height: 70px;
+}
+
+#reelsIcon {
+  padding-top: 10px;
+}
+
+/* pictures */
+.picturesContainer {
+  position: absolute;
+}
+
+#centrePic {
+  margin-top: -220px;
+  animation: transitionIn 7s;
+}
+
+#pic1 {
+  width: 150px;
+  top: 35px;
+  left: 50px;
+  rotate: 30deg;
+
+  animation-name: transitionIn;
+  animation-duration: 7s;
+}
+
+#pic2 {
+  width: 200px;
+  top: 110px;
+  left: 180px;
+  rotate: -20deg;
+
+  animation-name: transitionIn;
+  animation-duration: 10s;
+}
+
+#pic3 {
+  width: 170px;
+  top: 220px;
+  left: 30px;
+  rotate: -5deg;
+
+  animation-name: transitionIn;
+  animation-duration: 13s;
+}
+
+#pic4 {
+  width: 100px;
+  top: 215px;
+  left: 345px;
+  rotate: 2deg;
+
+  animation-name: transitionIn;
+  animation-duration: 19s;
+}
+
+#pic5 {
+  height: 180px;
+  top: 310px;
+  left: 190px;
+  rotate: 10deg;
+
+  animation-name: transitionIn;
+  animation-duration: 22s;
+}
+
+#pic6 {
+  width: 140px;
+  bottom: -5px;
+  left: 170px;
+  rotate: -5deg;
+
+  animation-name: transitionIn;
+  animation-duration: 10s;
+}
+
+#pic8 {
+  width: 115px;
+  bottom: 0px;
+  left: 290px;
+  rotate: 15deg;
+
+  animation-name: transitionIn;
+  animation-duration: 19s;
+}
+
+#pic9 {
+  width: 260px;
+  bottom: 0px;
+  left: -10px;
+  rotate: -20deg;
+
+  animation-name: transitionIn;
+  animation-duration: 25s;
+}
+
+#pic10 {
+  width: 150px;
+  top: 70px;
+  right: 210px;
+  rotate: 15deg;
+
+  animation-name: transitionIn;
+  animation-duration: 10s;
+}
+
+#pic11 {
+  width: 190px;
+  top: 20px;
+  right: 30px;
+  rotate: -20deg;
+
+  animation-name: transitionIn;
+  animation-duration: 13s;
+}
+
+#pic12 {
+  height: 160px;
+  top: 250px;
+  right: 20px;
+  rotate: 10deg;
+
+  animation-name: transitionIn;
+  animation-duration: 16s;
+}
+
+#pic13 {
+  width: 80px;
+  top: 210px;
+  right: 190px;
+  rotate: 35deg;
+
+  animation-name: transitionIn;
+  animation-duration: 18s;
+}
+
+#pic14 {
+  width: 110px;
+  top: 225px;
+  right: 285px;
+  rotate: -15deg;
+
+  animation-name: transitionIn;
+  animation-duration: 19s;
+}
+
+#pic15 {
+  width: 180px;
+  bottom: 60px;
+  right: 130px;
+  rotate: -10deg;
+
+  animation-name: transitionIn;
+  animation-duration: 13s;
+}
+
+#pic16 {
+  width: 130px;
+  bottom: 95px;
+  right: 285px;
+  rotate: 5deg;
+
+  animation-name: transitionIn;
+  animation-duration: 22s;
+}
+
+#pic17 {
+  width: 120px;
+  bottom: 65px;
+  right: 15px;
+  rotate: 5deg;
+
+  animation-name: transitionIn;
+  animation-duration: 7s;
+}
+
+#pic18 {
+  width: 120px;
+  bottom: -25px;
+  right: 260px;
+  rotate: -25deg;
+
+  animation-name: transitionIn;
+  animation-duration: 10s;
+}
+
+#pic19 {
+  width: 320px;
+  bottom: -40px;
+  right: -5px;
+  /* z-index: 1; */
+
+  animation-name: transitionIn;
+  animation-duration: 22s;
+}
+
+/* cake & tulips*/
+#cake {
+  position: relative;
+  width: 420px;
+  top: 100px;
+}
+
+#candle {
+  position: absolute;
+  width: 42px;
+  left: 348px;
+  top: 102px;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.tulips {
+  position: absolute;
+  width: 350px;
+}
+
+#tulipLeft {
+  top: 80px;
+  left: 20px;
+  rotate: 10deg;
+}
+
+#tulipRight {
+  top: 60px;
+  right: 60px;
+  rotate: 70deg;
+}
+
+.background {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  right: 0;
+  /* bottom: 0;
+  top: 0; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: auto;
+  margin-top: auto; */
+  background-color: rgba(216, 177, 244, 0.9);
+  width: 800px;
+  height: 500px;
+  border-radius: 30px;
+  z-index: 10;
+  text-align: center;
+}
+
+#makeWish {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: vhsFont;
+  font-size: 30px;
+  color: white;
+}
+
+#urFav {
+  position: absolute;
+  bottom: 115px;
+  right: 30px;
+  font-family: vhsFont;
+  font-size: 13px;
+  color: white;
+}
+
+.closeBg {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: rgb(69, 67, 67);
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  /* background-color: rgba(228, 207, 248, 0.746); */
+  backdrop-filter: blur(5px);
+  z-index: 9;
+}
+
+/* letter */
+.letter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+#letterBday {
+  margin-top: -45px;
+  width: 600px;
+}
+
+.closeLt {
+  position: absolute;
+  top: 12px;
+  right: 470px;
+  color: rgb(69, 67, 67);
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* music */
+/* .music {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+} */
+
+#musicBtn {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#musicBtn img {
+  width: 50px;
+}
+
+#musicBtn img:hover {
+  width: 55px;
+  transition: 0.5s;
+}
+
+/* reels */
+.reels {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+#video {
+  width: 365px;
+}
+
+.closeRl {
+  position: absolute;
+  top: 10px;
+  right: 500px;
+  color: rgb(96, 93, 93);
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* intro */
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* hidden class */
+.hidden {
+  display: none;
+}
